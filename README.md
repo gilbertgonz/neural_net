@@ -2,7 +2,6 @@
 Implementing simple neural networks with PyTorch to train on MNIST dataset
 
 ## How to run:
-dockerfile pending!
 1. Install [docker](https://docs.docker.com/engine/install/)
 
 2. Clone repo

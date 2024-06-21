@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import torch 
 import torch.nn as nn
 import torchvision
@@ -138,6 +140,7 @@ def main():
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')   
 
     # Load MNIST dataset
+    print("\nDownloading data...")
     train_dataset = torchvision.datasets.MNIST(root='./data/',
                                             train=True, 
                                             transform=transforms.ToTensor(),
